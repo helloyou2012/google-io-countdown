@@ -22,5 +22,14 @@
   </div>
   <script src="./TweenMax.js"></script>
   <script src="./countdown.js"></script>
+  <script>
+    var countDown = new IOWA.CountdownTimer.Core(
+      new Date('May 18 2017 10:00:00 GMT-0700 (PDT)'),
+      document.querySelector('countdown-timer')
+    );
+    countDown.setUp(false);
+    countDown.attachEvents();
+    countDown.play(false);
+  </script>
 </body>
 </html>
