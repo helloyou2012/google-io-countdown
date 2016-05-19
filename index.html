@@ -24,7 +24,7 @@
   <script src="./countdown.js"></script>
   <script>
     var countDown = new IOWA.CountdownTimer.Core(
-      new Date('May 18 2017 10:00:00 GMT-0700 (PDT)'),
+      new Date(Date.now() + 10*24*60*60*1000),
       document.querySelector('countdown-timer')
     );
     countDown.setUp(false);
