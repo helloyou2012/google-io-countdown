@@ -421,7 +421,7 @@ IOWA.CountdownTimer.Core.prototype.setCanvasSize = function() {
     this.canvasElement.width = this.containerDomElement.offsetWidth * this.pixelRatio, this.canvasElement.height = "horizontal" === this.format ? this.containerDomElement.offsetWidth / 2 * this.pixelRatio : this.containerDomElement.offsetWidth * this.pixelRatio, this.canvasElement.style.width = this.containerDomElement.offsetWidth + "px", this.canvasElement.style.height = "horizontal" === this.format ? this.containerDomElement.offsetWidth / 2 + "px" : this.containerDomElement.offsetWidth + "px"
 };
 
-var countDown = new IOWA.CountdownTimer.Core(new Date('May 18 2016 10:00:00 GMT-0700 (PDT)'), document.querySelector('countdown-timer'));
+var countDown = new IOWA.CountdownTimer.Core(new Date('May 18 2017 10:00:00 GMT-0700 (PDT)'), document.querySelector('countdown-timer'));
 countDown.setUp(false);
 countDown.attachEvents();
 countDown.play(false);
